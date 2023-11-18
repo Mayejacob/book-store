@@ -11,27 +11,33 @@ Welcome to the Book Store project! This is a simple Go application for managing 
 
 ### Installation
 
-    1. Clone the repository:
+1. Clone the repository:
 
     ```bash
     git clone https://github.com/Mayejacob/book-store.git
     ```
-### Run the application:
 
-cd book-store/cmd/main
+2. Navigate to the project directory:
 
     ```bash
-        go run main.go
+    cd book-store/cmd/main
     ```
+
+3. Run the application:
+
     ```bash
-        go run .
+    go run main.go
     ```
 
-**The server will start on http://localhost:9010**
+    Or alternatively:
 
-**API Endpoints**
+    ```bash
+    go run .
+    ```
 
- ## API Endpoints
+   The server will start on [http://localhost:9010](http://localhost:9010).
+
+## API Endpoints
 
 - **List all books:** `GET /books/`
 - **Retrieve details of a specific book:** `GET /books/{id}`
@@ -39,15 +45,14 @@ cd book-store/cmd/main
 - **Update details of an existing book:** `PUT /books/{id}`
 - **Delete a book:** `DELETE /books/{id}`
 
-
 ## Example Usage
 
 ### List all books
 
 ```bash
-curl http://localhost:8000/books/
-```
-### List all books
+curl http://localhost:9010/books/
+
+### book by ID
 
 ```bash
 curl http://localhost:8000/books/1
