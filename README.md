@@ -51,8 +51,10 @@ Welcome to the Book Store project! This is a simple Go application for managing 
 
 ```bash
 curl http://localhost:9010/books/
+```
 
 ### book by ID
 
 ```bash
 curl http://localhost:8000/books/1
+```
